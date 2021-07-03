@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(hi.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.house a{
+    text-decoration: double green;
+    color: white;
+    padding: 5px 10px;
+}
+.house ul{
+    margin: 0px ;
+    float: right;
+}
+.house li{
+    display: inline-block;
+    padding: 0px 12px;
+}
+.house a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.money{
+    color: white;
+}
+
